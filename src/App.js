@@ -26,6 +26,7 @@ import ProductList1 from './Components/ProductList1';
 import Event1 from './Components/Event1';
 import Spinner from './Components/Bootstrap/Spinner';
 import Mycount from './Components/Mycount';
+import Clockhook from './Components/clockapp';
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
     <br/><Event1/>
     <br/><Spinner/>
     <br/><Mycount/>
+    <br/><Clockhook></Clockhook>
     </div>
   );
 }

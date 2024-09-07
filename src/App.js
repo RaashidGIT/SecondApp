@@ -28,6 +28,7 @@ import Spinner from './Components/Bootstrap/Spinner';
 import Mycount from './Components/Mycount';
 import Clockhook from './Components/clockapp';
 import ExampleComponent from './Components/UseEffect';
+import Todo from './Components/Todo';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
     <br/><Mycount/>
     <ExampleComponent/>
     <br/><Clockhook></Clockhook>
+    <br/><Todo/>
     </div>
   );
 }

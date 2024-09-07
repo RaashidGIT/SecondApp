@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Child from './Components/Child';
+import Mymap from './Components/Mymap';
 import Parent from './Components/Parent';
 import SimpleMap from './Components/SimpleMap';
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
     <SimpleMap/>
     <Parent/>
+    <Mymap/>
     </div>
   );
 }

@@ -9,6 +9,7 @@ function Bootstrap3() {
       <Button as="input" type="button" value="Input" />{' '}
       <Button as="input" type="submit" value="Submit" />{' '}
       <Button as="input" type="reset" value="Reset" />
+      <br/>
     </>
   )
 }

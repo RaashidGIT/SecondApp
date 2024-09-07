@@ -5,6 +5,8 @@ import Bootstrap2 from './Components/Bootstrap2';
 import Bootstrap3 from './Components/Bootstrap3';
 import Bootstrap4 from './Components/Bootstrap/Bootstrap4';
 import Bootstrap5 from './Components/Bootstrap/Bootstrap5';
+import Bootstrap6 from './Components/Bootstrap/Bootstrap6';
+import Bootstrap7 from './Components/Bootstrap/Bootstrap7';
 import Header from './Components/Header';
 import Internal from './Components/Internal';
 import Mymap from './Components/Mymap';
@@ -12,6 +14,7 @@ import Parent from './Components/Parent';
 import SimpleMap from './Components/SimpleMap';
 import StylingCss from './Components/StylingCss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProductList1 from './Components/ProductList1';
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
     <Bootstrap3/>
     <Bootstrap4/>
     <Bootstrap5/>
+    <Bootstrap6/>
+    <Bootstrap7/>
+    <ProductList1/>
     </div>
   );
 }

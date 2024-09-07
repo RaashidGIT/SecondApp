@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
 import Internal from './Components/Internal';
 import Mymap from './Components/Mymap';
 import Parent from './Components/Parent';
@@ -14,6 +15,7 @@ function App() {
     <Mymap/>
     <StylingCss/>
     <Internal/>
+    <Header/>
     </div>
   );
 }

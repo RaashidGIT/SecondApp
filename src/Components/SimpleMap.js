@@ -8,9 +8,9 @@ const map1 = array1.map((x) => x * 2);
 
 console.log(map1);
     return(
-        <div>
+        <>
             <h1>{map1}</h1>
-        </div>
+        </>
     )
 }
 

@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import Bootstrap1 from './Components/Bootstrap1';
+import Bootstrap2 from './Components/Bootstrap2';
+import Bootstrap3 from './Components/Bootstrap3';
 import Header from './Components/Header';
 import Internal from './Components/Internal';
 import Mymap from './Components/Mymap';
@@ -19,6 +21,8 @@ function App() {
     <Internal/>
     <Header/>
     <Bootstrap1/>
+    <Bootstrap2/>
+    <Bootstrap3/>
     </div>
   );
 }

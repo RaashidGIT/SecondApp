@@ -1,9 +1,11 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import './External2.css'
 
 function Bootstrap1() {
   return (
-    <>
+    <div className ="c2">
+      <br/>
       <Button variant="primary">Primary</Button>{' '}
       <Button variant="secondary">Secondary</Button>{' '}
       <Button variant="success">Success</Button>{' '}
@@ -13,7 +15,7 @@ function Bootstrap1() {
       <Button variant="light">Light</Button>{' '}
       <Button variant="dark">Dark</Button>
       <Button variant="link">Link</Button>
-    </>
+    </div>
   )
 }
 

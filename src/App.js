@@ -27,6 +27,7 @@ import Event1 from './Components/Event1';
 import Spinner from './Components/Bootstrap/Spinner';
 import Mycount from './Components/Mycount';
 import Clockhook from './Components/clockapp';
+import ExampleComponent from './Components/UseEffect';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
     <br/><Event1/>
     <br/><Spinner/>
     <br/><Mycount/>
+    <ExampleComponent/>
     <br/><Clockhook></Clockhook>
     </div>
   );
